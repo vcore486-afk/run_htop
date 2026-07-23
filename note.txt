@@ -1,0 +1,1 @@
+cl /EHsc /std:c++17 /MT find_and_run_htop.cpp  resource.res   zlib_stub.c ^ /I d:\vcpkg\installed\x64-windows-static\include ^ /link ^ /LIBPATH:d:\vcpkg\installed\x64-windows-static\lib ^ libssh2.lib ^ libcrypto.lib ^ libssl.lib ^ ws2_32.lib ^ user32.lib ^ gdi32.lib ^ comctl32.lib ^ crypt32.lib ^ bcrypt.lib ^ advapi32.lib ^ /OUT:run_htop.exe
